@@ -1,0 +1,240 @@
+.titulo{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+
+.contenedor{
+    width: 800px;
+    margin: auto;
+}
+
+.subtitulo{
+    font-size: 20px;
+}
+
+.juegos h2{
+    
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulos_b{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.portada{
+    background-image: url(../images/fondo.png);
+    color: white;
+    padding: 20px;
+    border-radius: 2px;
+    background-size: cover;
+}
+
+.juegos{
+    color: #1f313c;
+}
+
+.menu{
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    right:0;
+}
+
+body{
+    
+    font-family: 'Allerta', sans-serif;
+    margin: 0;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.logotipo{
+   display: inline-block; 
+}
+
+.portada button{
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border: none;
+    font-size: 15px;
+    background: linear-gradient(to left, #fe344e, #ff7250);
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
+.derecha{
+    float: right;
+    top: 10px;
+    border-radius: 30px;
+}
+
+.izquierda{
+    float: left;
+    border-radius: 30px;
+}
+
+.game{
+    overflow: hidden;
+    border: 1px solid #1f313c;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.contenedor-juego-2{
+    margin-left:100px;
+    position: relative;
+    bottom: 30px;
+    }
+
+.contenedor-juego-1{
+    margin-left: 400px;
+    position: relative;
+    bottom: 30px;
+    }
+
+.juegos ol{
+    padding: 0;
+}
+
+.header{
+    position: relative;
+}
+
+.footer{
+    background: #273b47;
+}
+
+.contacto img{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.contacto strong{
+    display: block;
+}
+
+.contacto a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.contacto .telf{
+    margin-bottom: 40px;
+}
+
+.footer .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto{
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.formulario{
+    display: flex;
+    width: 480px;
+    color: white;
+}
+
+.clo1, .col2{
+    display: flex;
+    flex-direction: column;
+}
+
+.col1{
+    margin-right: 60px;
+    margin-top: 50px;
+    
+}
+
+.intereses label{
+    font-size: 14px;
+}
+
+.formulario label,.sexo,.intereses{
+    margin-bottom: 10px;
+}
+
+.sexo{
+    margin-top:15px;
+}
+
+.col2{
+    align-items: flex-start;
+    margin-top: 45px;
+}
+
+.boton{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background: linear-gradient(to left, #fe344e, #ff7250);
+}
+
+.info{
+    margin: 0;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    background: #273b47;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+    
+}
+
+td{
+    padding: 20px;
+}
+
+table,td,th{
+    border 1px solid #273b47;
+    border-collapse: collapse;
+}
+
+.menu li:before{
+    content: '°';
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.tabla{
+    
+    margin: 60px;
+}
+
+.table, th, td {
+    border: 1px solid black;
+}
+
+input:focus, textarea:focus{
+    background: lightgray;
+}
